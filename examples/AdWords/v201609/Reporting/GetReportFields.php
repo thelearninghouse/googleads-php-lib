@@ -37,7 +37,7 @@ function GetReportFieldsExample(AdWordsUser $user) {
       $user->GetService('ReportDefinitionService', ADWORDS_VERSION);
 
   // The type of the report to get fields for.
-  $reportType = 'CAMPAIGN_PERFORMANCE_REPORT';
+  $reportType = 'KEYWORDS_PERFORMANCE_REPORT';
 
   // Get report fields.
   $reportDefinitionFields =
